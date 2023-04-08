@@ -32,6 +32,17 @@
 @Column
 ```
 
+First you need create a connection with MySQL
+```java
+Relic relic = Relic.inst();
+relic.setConnection(new MysqlConnection(new SqlProperty(){{
+    addProperty("host", "localhost");
+    addProperty("username", "root");
+    addProperty("password", "");
+    addProperty("database", "relic");
+}}));
+```
+
 Here are some examples:
 ```java
 import io.github.viiictorxd.relic.annotation.Column;
@@ -124,6 +135,6 @@ Please make sure to read the Issue Reporting Checklist before opening an issue. 
 <table>
   <tr>
     <td align="center"><a href="https://github.com/ViiictorXD">
-<img src="https://avatars3.githubusercontent.com/u/38568440?v=4" width="100px;" alt=""/><br /><sub><b>ViiictorXD</b></sub></a><br /><a href="https://github.com/ViiictorXD/CombatChanger/commits?author=ViiictorXD" title="Code">💻</a></td>
+<img src="https://avatars3.githubusercontent.com/u/38568440?v=4" width="100px;" alt=""/><br /><sub><b>ViiictorXD</b></sub></a><br /><a href="https://github.com/ViiictorXD/Relic/commits?author=ViiictorXD" title="Code">💻</a></td>
   </tr>
 </table>
