@@ -1,7 +1,7 @@
 
 <p align="center">
 <h1>Relic</h1>
-🚀 A quick, lightweight and simple ORM (Object Relational Mapper) for Java.
+⚡️ A quick and lightweight ORM (Object Relational Mapper) for Java.
 </p>
 
 <h2>Quick example</h2>
